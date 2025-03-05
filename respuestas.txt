@@ -1,0 +1,94 @@
+Ejercicio 1: Verificar la Configuración Global de Git
+¿Qué comando debes usar para verificar tu configuración global?
+
+
+¿Cómo puedes configurar tu nombre de usuario y dirección de correo electrónico globalmente?
+
+
+Ejercicio 2: Clonar un Repositorio Remoto
+¿Qué comando usas para clonar un repositorio remoto?
+
+
+¿Qué pasa si intentas clonar un repositorio que ya existe en tu máquina?
+
+
+Ejercicio 3: Crear y Publicar una Rama Remota
+¿Qué comando usas para crear una rama local?
+
+
+¿Cómo subes una rama local al repositorio remoto?
+
+
+¿Qué diferencia hay entre una rama local y una rama remota?
+
+
+Ejercicio 4: Resolver Conflictos en Ramas
+¿Qué ocurre cuando Git detecta un conflicto durante una fusión?
+
+
+¿Cómo identificas las secciones conflictivas en un archivo?
+
+
+¿Qué pasos sigues para resolver un conflicto y completar la fusión?
+
+
+Ejercicio 5: Etiquetar Versiones Importantes
+¿Qué comando usas para crear una etiqueta en Git?
+
+
+¿Cómo puedes listar todas las etiquetas existentes en tu repositorio?
+
+
+¿Por qué es útil utilizar etiquetas en tus proyectos?
+
+
+Ejercicio 6: Revertir Cambios en un Commit
+¿Qué comando usas para revertir un commit en Git?
+
+
+¿Cuál es la diferencia entre revertir un commit y eliminarlo completamente?
+
+
+¿Por qué es importante mantener la historia del repositorio intacta?
+
+
+Ejercicio 7: Trabajar con Ramas Origen/Destino
+¿Qué significa el parámetro --no-ff en una fusión?
+
+
+¿Por qué es útil preservar la historia de una rama después de fusionarla?
+
+
+¿Qué ocurre si omites el parámetro --no-ff?
+
+
+Ejercicio 8: Actualizar y Sincronizar con el Repositorio Remoto
+¿Qué comando usas para verificar si hay actualizaciones disponibles en el repositorio remoto?
+
+
+¿Cómo descargas las actualizaciones y las fusionas con tu rama local?
+
+
+¿Qué ocurre si hay conflictos durante la sincronización? ¿Cómo los resuelves?
+
+
+Ejercicio 9: Usar Alias para Comandos Frecuentes
+¿Cómo creas un alias para un comando Git?
+
+
+¿Qué otros comandos frecuentes podrías simplificar con alias?
+
+
+¿Cómo puedes hacer que tus alias sean persistentes entre sesiones?
+
+
+Ejercicio 10: Colaborar en un Proyecto con Pull Requests
+¿Qué es un pull request y cuál es su propósito?
+
+
+¿Cómo creas un pull request en GitHub?
+
+
+¿Qué pasa si recibes comentarios o sugerencias sobre tus cambios?
+
+
