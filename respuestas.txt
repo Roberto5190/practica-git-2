@@ -15,6 +15,7 @@ git clone <url-repositorio-github>
 ¿Qué pasa si intentas clonar un repositorio que ya existe en tu máquina?
 La consola nos mostrará un error de que en la ruta de destino ya existe ese repositorio.
 
+
 Ejercicio 3: Crear y Publicar una Rama Remota
 ¿Qué comando usas para crear una rama local?
 git branch <nombre-rama>
@@ -27,6 +28,7 @@ Las ramas locales se usan para modificar o avanzar con el código sin tener un i
 solo podemos verlas nosotros, por el contrario una rama remota es compartida por todos los colaboradores los cuales tienen acceso 
 a los cambios realizados en esta.
 
+
 Ejercicio 4: Resolver Conflictos en Ramas
 ¿Qué ocurre cuando Git detecta un conflicto durante una fusión?
 
@@ -35,6 +37,7 @@ Ejercicio 4: Resolver Conflictos en Ramas
 
 
 ¿Qué pasos sigues para resolver un conflicto y completar la fusión?
+
 
 
 Ejercicio 5: Etiquetar Versiones Importantes
@@ -47,6 +50,7 @@ Ejercicio 5: Etiquetar Versiones Importantes
 ¿Por qué es útil utilizar etiquetas en tus proyectos?
 
 
+
 Ejercicio 6: Revertir Cambios en un Commit
 ¿Qué comando usas para revertir un commit en Git?
 
@@ -55,6 +59,7 @@ Ejercicio 6: Revertir Cambios en un Commit
 
 
 ¿Por qué es importante mantener la historia del repositorio intacta?
+
 
 
 Ejercicio 7: Trabajar con Ramas Origen/Destino
@@ -67,6 +72,7 @@ Ejercicio 7: Trabajar con Ramas Origen/Destino
 ¿Qué ocurre si omites el parámetro --no-ff?
 
 
+
 Ejercicio 8: Actualizar y Sincronizar con el Repositorio Remoto
 ¿Qué comando usas para verificar si hay actualizaciones disponibles en el repositorio remoto?
 
@@ -77,6 +83,7 @@ Ejercicio 8: Actualizar y Sincronizar con el Repositorio Remoto
 ¿Qué ocurre si hay conflictos durante la sincronización? ¿Cómo los resuelves?
 
 
+
 Ejercicio 9: Usar Alias para Comandos Frecuentes
 ¿Cómo creas un alias para un comando Git?
 
@@ -85,6 +92,7 @@ Ejercicio 9: Usar Alias para Comandos Frecuentes
 
 
 ¿Cómo puedes hacer que tus alias sean persistentes entre sesiones?
+
 
 
 Ejercicio 10: Colaborar en un Proyecto con Pull Requests
