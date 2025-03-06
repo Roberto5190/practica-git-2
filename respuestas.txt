@@ -106,23 +106,38 @@ lo resolveríamos de la misma manera comentada en el ejercicio 4.
 
 Ejercicio 9: Usar Alias para Comandos Frecuentes
 ¿Cómo creas un alias para un comando Git?
-
+git config --global alias.gst "status"
+-congig --global configura el alias de forma global, es decir para todos los repositorios del sistema.
+-alias.gst define el alias que va seguido del punto.
+-"status" comando para el alias.
 
 ¿Qué otros comandos frecuentes podrías simplificar con alias?
-
+1. git merge --no-ff // git config --global alias.mnf "merge --no-ff"
+2. git branch -a // git config --global alias.br "branch -a"
+3. git push origin main // git config --global alias.pom "push origin main"
+4. git pull origin main // git config --global alias.pllom "push origin main"
 
 ¿Cómo puedes hacer que tus alias sean persistentes entre sesiones?
-
+Con el parametro --global.
 
 
 
 Ejercicio 10: Colaborar en un Proyecto con Pull Requests
 ¿Qué es un pull request y cuál es su propósito?
-
+Es una petición a los administradores de la rama principal para que revisen los cambios realizados en la rama y puedan 
+fusionarlos con esta.
 
 ¿Cómo creas un pull request en GitHub?
-
+Exolicado por los pasos a seguir:
+1. Ir al repositorio en GitHub.
+2. Hacer click en la pestaña "Pull requests".
+3. Hacer click en "New Pull Request".
+4. Seleccionar la rama de origen y la rama destino.
+5 .Revisar los cambios que se van a fusionar.
+6. Añadir un título y una descripción clara sobre los cambios.
+7. Hacer click en "Create Pull Request".
 
 ¿Qué pasa si recibes comentarios o sugerencias sobre tus cambios?
-
+Deberemos revisarlos y en el caso de que sea necesario ir al código de los cambios sugeridos y posicionarnos sobre la rama de la pull request para
+realizar los cambios y hacer git add y commit para agregarlos y confirmar para posteriormente subirlos al remoto.
 
