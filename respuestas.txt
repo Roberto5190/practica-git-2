@@ -43,26 +43,32 @@ Conflicto a
 
 
 ¿Qué pasos sigues para resolver un conflicto y completar la fusión?
+En el editor de código se muestran varias opciones a elegir para resolver el conflicto, podemos aceptar los cambios actuales, aceptar el cambio entrante o ambos.
 
 
 Ejercicio 5: Etiquetar Versiones Importantes
 ¿Qué comando usas para crear una etiqueta en Git?
-
+git tag <tag-name>
+git push origin <tag-nanme> para subir la etiqueta al remoto.
 
 ¿Cómo puedes listar todas las etiquetas existentes en tu repositorio?
-
+git tag
 
 ¿Por qué es útil utilizar etiquetas en tus proyectos?
+Es útil para identificar versiones especificas del código y en casos futuros si es necesario poder volver a ellas fácilmente.
+También es útil para tener una mejor organización del código.
 
 
 Ejercicio 6: Revertir Cambios en un Commit
 ¿Qué comando usas para revertir un commit en Git?
-
+git revert <hash-commit>
 
 ¿Cuál es la diferencia entre revertir un commit y eliminarlo completamente?
-
+La diferencia está en que al revertir un commit no estamos borrando el historial del repositorio, al eliminarlo completamente 
+borramos el historial u los cambios realizados posteriormente.
 
 ¿Por qué es importante mantener la historia del repositorio intacta?
+Para mantener la trazabilidad de los cambios hechos y evitar la perdida de información.
 
 
 Ejercicio 7: Trabajar con Ramas Origen/Destino
