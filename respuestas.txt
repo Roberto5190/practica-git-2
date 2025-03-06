@@ -29,9 +29,17 @@ a los cambios realizados en esta.
 
 Ejercicio 4: Resolver Conflictos en Ramas
 ¿Qué ocurre cuando Git detecta un conflicto durante una fusión?
-
+Nos muestra un error en la terminal diciendo que no es posible la fusión y nos sugiere arreglarlo en el arbol de trabajo y después
+usar git add/rm <archivo>.
 
 ¿Cómo identificas las secciones conflictivas en un archivo?
+Se muestran en el editor de código de la siguiente manera:
+<<<<<<< HEAD
+Conflicto
+=======
+Conflicto a
+>>>>>>> branch-a
+
 
 
 ¿Qué pasos sigues para resolver un conflicto y completar la fusión?
