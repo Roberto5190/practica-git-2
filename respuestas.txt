@@ -80,25 +80,27 @@ Para mantener la trazabilidad de los cambios hechos y evitar la perdida de infor
 
 Ejercicio 7: Trabajar con Ramas Origen/Destino
 ¿Qué significa el parámetro --no-ff en una fusión?
-
+Significa "no fast-forward", este párametro permite mantener un registro claro de la fusión manteniendo en el historial la existencia de ambas ramas.
 
 ¿Por qué es útil preservar la historia de una rama después de fusionarla?
-
+Porque facilita entender el flujo de trabajo previo y poder revertir en caso futuro si algo sale mal.
 
 ¿Qué ocurre si omites el parámetro --no-ff?
-
+Git usará fast-forward y no creará un commit de la fusión y será imposible trazar la rama en el historial del repositorio.
 
 
 
 Ejercicio 8: Actualizar y Sincronizar con el Repositorio Remoto
 ¿Qué comando usas para verificar si hay actualizaciones disponibles en el repositorio remoto?
-
+git fetch //Descarga los cambios del remoto sin fusionarlos con la rama
+git status //ver el estado y verificar que cambios se han realizado
 
 ¿Cómo descargas las actualizaciones y las fusionas con tu rama local?
-
+Con el comando git pull
 
 ¿Qué ocurre si hay conflictos durante la sincronización? ¿Cómo los resuelves?
-
+Nos mostrá un mensaje como el que sale al haber un conflicto en la fusión de dos ramas(realmente al sincronizar estamos fusionando dos ramas o dos estados de estas),
+lo resolveríamos de la misma manera comentada en el ejercicio 4.
 
 
 
